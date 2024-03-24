@@ -1,9 +1,9 @@
 body {
-    background: gray;
+    background: #E8C872;
 }
 
 :root{
-    --plyr-color-main: darkgray;
+    --plyr-color-main: #FFD700;
     --plyr-video-controls-background: black;
     --plyr-video-control-color: white;
 }
@@ -11,7 +11,7 @@ main {
     /* Fixed width center align */
     max-width: 60em;
     margin-inline: auto;
-    background: lightgray;
+    background: #f5f5dc;
 }
 main img {
     /* Fit image to container */
@@ -34,3 +34,27 @@ footer {
         align-items: center;
     }
 }
+
+a {
+    color: #0000ff; 
+    text-decoration: none; 
+    margin-right: 10px; 
+  }
+
+  a:hover {
+    color: #FFAEC0; 
+  }
+
+  p {
+    color: black; 
+    font-size: 16px; 
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: 5px;
+  }
+  
+  /* Style footer */
+  footer {
+    margin-top: 20px; 
+    font-style: italic; 
+  }
