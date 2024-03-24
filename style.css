@@ -1,0 +1,36 @@
+body {
+    background: gray;
+}
+
+:root{
+    --plyr-color-main: darkgray;
+    --plyr-video-controls-background: black;
+    --plyr-video-control-color: white;
+}
+main {
+    /* Fixed width center align */
+    max-width: 60em;
+    margin-inline: auto;
+    background: lightgray;
+}
+main img {
+    /* Fit image to container */
+    max-width: 100%;
+    display: block;
+}
+article {
+    /* flow content horizontally */
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+    main article {
+        flex-direction: column;
+        align-items: center;
+    }
+}
